@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Free Online Tools for Images & PDFs - Compress, Resize, Convert, Merge & More" />
+  <meta name="keywords" content="Image Tools, PDF Tools, Online Compress, Resize, Convert, Merge, Free Tools" />
+  <title>Free Online Image & PDF Tools</title>
+  <style>
+    /* Reset and base styles */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #4a90e2;
+      padding: 1.5rem 2rem;
+      text-align: center;
+      color: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* Main container */
+    main {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    /* Section styles */
+    section {
+      margin-bottom: 3rem;
+    }
+
+    /* Section header */
+    .section-header {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .section-header h2 {
+      font-size: 2rem;
+      color: #333;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Tool grid */
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    /* Tool card styles */
+    .tool-card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .tool-card:hover {
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      transform: translateY(-5px);
+    }
+
+    .tool-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #4a90e2;
+    }
+
+    .tool-title {
+      font-size: 1.2rem;
+      margin-bottom: 0.75rem;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    .tool-desc {
+      font-size: 0.95rem;
+      text-align: center;
+      color: #666;
+    }
+
+    /* CTA Button */
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #4a90e2;
+      color: #fff;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .btn:hover {
+      background-color: #357ab8;
+      transform: scale(1.02);
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 4rem;
+    }
+
+    /* Responsive typography */
+    @media(max-width: 768px) {
+      header h1 {
+        font-size: 1.75rem;
+      }
+      .section-header h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+  <!-- Optional icon fonts (Font Awesome) for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Free Online Image & PDF Tools</h1>
+    <p>Compress, Resize, Convert, Merge, and More — All Free & Easy to Use!</p>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Tools Overview Section -->
+    <section>
+      <div class="section-header">
+        <h2>Our Tools</h2>
+        <p>Explore our suite of powerful online utilities for images and PDFs.</p>
+      </div>
+      
+      <div class="tools-grid">
+        <!-- Example Tool Card -->
+        <div class="tool-card">
+          <div class="tool-icon"><i class="fas fa-image"></i></div>
+          <div class="tool-title">Image Compressor</div>
+          <div class="tool-desc">Reduce image file sizes without quality loss.</div>
+          <a href="image-compression.html" class="btn">Try Now</a>
+        </div>
+        <div class="tool-card">
+          <div class="tool-icon"><i class="fas fa-resize-small"></i></div>
+          <div class="tool-title">Image Resize</div>
+          <div class="tool-desc">Quickly resize images for web or print.</div>
+          <a href="image-resize.html" class="btn">Try Now</a>
+        </div>
+        <div class="tool-card">
+          <div class="tool-icon"><i class="fas fa-file-upload"></i></div>
+          <div class="tool-title">PDF Merge</div>
+          <div class="tool-desc">Combine multiple PDFs into one document.</div>
+          <a href="pdf-merge.html" class="btn">Try Now</a>
+        </div>
+        <div class="tool-card">
+          <div class="tool-icon"><i class="fas fa-file-pdf"></i></div>
+          <div class="tool-title">PDF Compress</div>
+          <div class="tool-desc">Reduce PDF sizes easily.</div>
+          <a href="pdf-compress.html" class="btn">Try Now</a>
+        </div>
+        <!-- Add more tools as needed -->
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section>
+      <div class="section-header">
+        <h2>Why Choose Our Tools?</h2>
+        <p>Fast, Secure, and Free — Perfect for your daily needs.</p>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; max-width: 1200px; margin: 0 auto;">
+        <div style="flex:1; min-width:200px; background:#fff; padding:1.5rem; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+          <h3 style="margin-bottom:1rem;">Easy to Use</h3>
+          <p>No registration required. Just upload and go!</p>
+        </div>
+        <div style="flex:1; min-width:200px; background:#fff; padding:1.5rem; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+          <h3 style="margin-bottom:1rem;">Fast Processing</h3>
+          <p>Instant results with high-quality output.</p>
+        </div>
+        <div style="flex:1; min-width:200px; background:#fff; padding:1.5rem; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+          <h3 style="margin-bottom:1rem;">Secure & Private</h3>
+          <p>Your files are deleted after processing. Privacy guaranteed.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+    <p>
+      <a href="#privacy" style="color:#fff; text-decoration:underline;">Privacy Policy</a> | 
+      <a href="#terms" style="color:#fff; text-decoration:underline;">Terms of Service</a>
+    </p>
+  </footer>
+
+</body>
+</html>
